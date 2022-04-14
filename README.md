@@ -9,7 +9,7 @@
 * 作者的Heroku脚本为多协议共存脚本，该项目使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议，默认已配置好伪装网站。  
 
 ## 服务端创建操作流程
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/ygtsj/Heroku-xray-trojangows-ssws)  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/tangzhdong/Heroku-xray-trojangows-ssws)  
 点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上应用程序名、选择节点（美国节点会自动删除YouTube评论与点赞！建议用欧洲节点）、自定义UUID码，其他建议保持默认，点击下面deploy，几秒后搞定！    
 
 ## vmess vless trojan-go shadowsocks对应客户端参数的参考如下,末尾带()里的内容仅为提示
@@ -19,7 +19,7 @@
 ### 代理协议：vless+ws+tls 或 vmess+ws+tls
 * 服务器地址：自选ip（如：icook.tw）
 * 端口：443
-* 默认UUID：8f91b6a0-e8ee-11ea-adc1-0242ac120002   (务必创建时自定义UUID码)
+* 默认UUID：110cf2d0-1223-4dec-a51c-8d537ed48f35   (务必创建时自定义UUID码)
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
